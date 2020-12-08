@@ -1,0 +1,422 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+}
+.cover{ width: 100%;
+	height: 5070px;
+	background-color: aqua;}
+.containera{
+	width: 1600px;
+	height: 670px;
+	background: url("../images/Nen.jpg");
+	margin: 0 auto;
+}
+.hop{
+	width: 1000px;
+	height: 500px;
+	background-color: beige;
+
+	margin: 0 auto;
+}
+.logo{width: 1600px;
+	height: 100px;
+	background-color:transparent;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+	font-family: robotobold;
+	letter-spacing: 1px;
+}
+		ul
+			{list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+  			justify-content: center;}
+			
+		ul li
+			{padding: 10px 30px;
+			float: left;
+			position: relative;}
+		
+			ul li a
+			{ text-decoration: none }
+			.logo ul li:hover{background-color:cornflowerblue;}
+		
+
+			ul li ul 
+				{position: absolute;
+				left: 0px;
+				top: 40px;
+				visibility: hidden;
+				flex-direction: column;
+				padding: 0px;
+				margin: 0px;
+				z-index: 10;}
+
+@font-face {
+	font-family: source;
+	src:url("../font/SourceSerifPro-Bold.ttf");}
+@font-face {
+	font-family: roboto;
+	src:url("../font/Roboto-Light.ttf");}
+@font-face {
+	font-family: robotobold;
+	src:url("../font/Roboto-Bold.ttf");}
+.pa{font-family: source;
+	font-size: 25px;
+	letter-spacing: 1px;}
+.pb{font-family: roboto;
+	font-size: 15px;
+	letter-spacing: 1px;}
+.pc{font-family: robotobold;
+	font-size: 15px;
+	letter-spacing: 1px;}
+
+
+.logoa{width: 40%;
+	height: 100px;
+	background-color:transparent;
+	float: left;
+	display: flex;
+  justify-content: center;
+}
+.logob{width: 60%;
+	height: 100px;
+	background-color:transparent;
+	float: right;
+display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.middle
+	{
+	width: 1600px;
+	height: 500px;
+	color:white;
+	display: flex;
+		flex-direction: column;
+ 	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+	text-align: center;
+	}
+.middlea{width: 500px;
+	height:100px;
+	background-color: transparent;
+	color:white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	}
+.middleb{width: 1000px;
+	height: 200px;
+	background-color: transparent;
+	color:white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+.button{
+	width: 120px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid #FFFFFF;
+	font-size: 14px;
+	font-family: robotobold;
+	display: flex;
+ 	 justify-content: center;
+  	align-items: center;
+	letter-spacing: 1px;
+}
+.contain{
+	width: 1600px;
+	height: 400px;
+	background: white;
+	margin: 0 auto;
+	
+}
+.containa{
+	width: 45%;
+	height: 400px;
+	background-color: transparent;
+	margin: 0 auto;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.containa img{transition: all .2s linear;
+			opacity: 1}
+.containa img:hover {transform: scale(0.8);
+			opacity: 0.5}
+.containb{
+	width: 55%;
+	height: 400px;
+	background-color: transparent;
+	margin: 0 auto;
+	float: left;
+	display: flex;
+/*	align-items: center;*/
+	flex-direction: column;
+}
+.containb .button{transition: all .2s linear;}
+.containb .button:hover {transform: scale(0.9);}	
+.video{
+	width: 1600px;
+	height: 550px;
+	margin: 0 auto;
+	}
+.giua{
+	width: 1600px;
+	height: 750px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	
+	}
+.giuaa{
+	width: 600px;
+	height: 150px;
+	background-color: transparent;
+	color: black;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	}
+.giuab{
+	width: 1600px;
+	height: 600px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.vuong{
+	width: 26%;
+	height: 50%;
+	background: #FFFFFF;
+	margin: 1px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 20px 30px;
+	font-size: 13px;
+}
+.vuong img{transition: all .2s linear;
+	
+}
+.vuong img:hover {transform: scale(1.5)}
+.amazing{
+	width: 1600px;
+	height: 700px;
+	background: url("../images/nenab_02.jpg");
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	}
+.amazinga{
+	width: 1600px;
+	height: 200px;
+	background-color: transparent;
+	color: white;
+	margin: 0 auto;
+	display: flex;
+	float: left;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	}
+.amazingb{
+	width: 1600px;
+	height: 300px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+	}
+.o{width: 13%;
+	height: 90%;
+	background-color: transparent;
+/*
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+*/
+	margin: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: skyblue;
+}
+.oa{width: 100%;
+	height: 70%;
+	background-color: white;}
+.ob{width: 100%;
+	height: 30%;
+	background-color: transparent;
+	color: white;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: SFU;}
+.amazingc{
+	width: 1600px;
+	height: 200px;
+	background-color: transparent;
+	color: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	}
+.page{width: 1600px;
+	height: 150px;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	}
+.pagea{width: 50%;
+	height: 150px;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	}
+.pageb{width: 50%;
+	height: 150px;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	}
+.caro{width: 1600px;
+	height: 390px;
+	background: url("../images/itemabc_04.jpg");
+	margin: 0 auto;
+	}
+.footer{
+width: 1600px;
+	height: 490px;
+	background: url("../images/nen03_02.jpg");
+	margin: 0 auto;	
+	
+	
+}
+.footera{
+width: 1600px;
+	height: 65%;
+	background-color: transparent;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	color: white;
+}
+.footerb{
+width: 1600px;
+	height: 35%;
+	background-color: transparent;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.final{
+	width: 1600px;
+	height: 670px;
+	background-color: darkgreen;
+	margin: 0 auto;	
+}
+.final{
+	width: 1600px;
+	height: 670px;
+	background-color: darkgreen;
+	margin: 0 auto;	
+	display: flex;
+}
+.finala{
+	width: 50%;
+	height: 670px;
+	background-color: white;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+/*	align-items: center;*/
+}
+.finalb{
+	width: 50%;
+	height: 670px;
+	background-color: white;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.row{width: 80%;
+	height: 60px;
+	background-color: white;
+	display: flex;
+	float: right;
+	align-items: center;
+/*	justify-content: center;*/
+}
+.left{width: 40%;
+	height: 50px;
+	background-color: white;
+	float: left;
+}
+.right{width: 60%;
+	height: 40px;
+	background-color: white;
+	float: right;
+}
+input{
+width: 400px;
+height: 40px;
+}
